@@ -75,7 +75,7 @@ const LotteryCard = () => {
     if (!allowance.toNumber()) {
       return (
         <Button width="100%" disabled={requestedApproval} onClick={handleApprove}>
-          {TranslateString(494, 'Approve APES')}
+          {TranslateString(494, 'Approve SUperCake')}
         </Button>
       )
     }
@@ -114,7 +114,7 @@ const LotteryCard = () => {
               onClick={handleClaim}
               style={{ marginRight: '8px' }}
             >
-              {TranslateString(556, 'Collect Winnings')}
+              {TranslateString(556, 'Collect Super Winnings')}
             </Button>
             {renderLotteryTicketButtonBuyOrApprove()}
           </Actions>

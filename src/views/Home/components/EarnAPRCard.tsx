@@ -49,7 +49,7 @@ const EarnAPRCard = () => {
     <StyledFarmStakingCard>
       <CardBody>
         <Heading color="contrast" size="lg">
-          Earn up to
+          Earn as much as
         </Heading>
         <CardMidContent color="#7645d9">
           {highestApr ? (
